@@ -26,7 +26,7 @@ import com.winston.urlextraction.URLExtractorActor
 import akka.cluster.ClusterEvent.ClusterDomainEvent
 import com.winston.nlp.listener.Listener
 
-
+// Bootable
 class ApiBoot extends Bootable {
 
 	val ip = IPTools.getPrivateIp();
