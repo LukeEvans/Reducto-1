@@ -1,3 +1,14 @@
+# Distribute
+- name: Distribute 
+  hosts: 
+  - tag_Name_Reducto-Frontend-01
+  - tag_Name_Reducto-Backend-01
+  user: ubuntu
+  sudo: true
+  gather_facts: false
+  roles:
+      - distribute
+
 # Undeploy
 - name: Undeploy Frontend
   hosts: 
@@ -17,20 +28,6 @@
   gather_facts: false
   roles:
       - undeploy-backend
-
-
-
-# Distribute
-- name: Distribute 
-  hosts: 
-  - tag_Name_Reducto-Frontend-01
-  - tag_Name_Reducto-Backend-01
-  user: ubuntu
-  sudo: true
-  gather_facts: false
-  roles:
-      - distribute
-
 
 # Deploy
 - name: Run Frontend

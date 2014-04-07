@@ -1,7 +1,7 @@
 ---
 
 - name: Pause
-  pause: seconds=60
+  pause: seconds=6
   
 - name: Run Frontend Daemon
   command: "start {{ item }}"
