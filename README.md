@@ -1,13 +1,9 @@
-akka-nlp
-========
+Reducto is a RESTful news summarization API built using Scala and Akka: http://akka.io/
 
-Akka implementation of NLP
+This is an R&D project, and should not be considered finished or production ready.
 
-This is a very rough implementation of NLP technologies in Akka/Scala
-
-To run:
-
-	1) In terminal run: 'sbt compile run'
-	2) Select number corresponding to DaemonSystem
-	3) From eclipse run TestApp.java
+* [Overview](https://github.com/Reactor-Inc/Reducto/wiki/Reducto-Overview)
+* [Pipeline](https://github.com/Reactor-Inc/Reducto/wiki/Reducto-Pipeline)
+* [Redis Term Frequency](https://github.com/Reactor-Inc/Reducto/wiki/Redis-Term-Frequency-Holder)
+* [Deply/Config](https://github.com/Reactor-Inc/Reducto/wiki/Deployment)
 
